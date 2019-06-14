@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Roboto-Black";
+  src: url("../assets/roboto/Roboto-Black.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../assets/roboto/Roboto-Regular.ttf");
+}
 /* The navigation bar */
 .navbar {
   overflow: hidden;
@@ -47,10 +56,39 @@
 } */
 
 body {
-  background-color: black;
+  background-color: rgb(26, 36, 58);
 }
 
 #pageTitles {
+  margin-left: 20px;
+  margin-top: 50px;
   color: white;
   margin-top: 400px;
+  font-family: Roboto;
+}
+
+#pageTitle {
+  font-size: 3.75em;
+  font-weight: 900;
+  font-family: Roboto-black;
+}
+
+#pageSubtitle {
+  font-size: 1.375em;
+  font-family: Roboto-Regular;
+}
+
+#joinFreeButton {
+  background-color: #c80000;
+  color: white;
+  height: 58px;
+  border-radius: 28px;
+  padding: 0 1.25em;
+  font-size: 1.375em;
+  border-color: #c80000;
+  font-family: Roboto-Regular;
+}
+
+#scroll {
+  margin-top: 500px;
 }
