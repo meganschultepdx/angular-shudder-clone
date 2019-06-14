@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Roboto-Black";
-  src: url("../assets/roboto/Roboto-Black.ttf");
+  font-family: "Roboto-Bold";
+  src: url("../assets/roboto/Roboto-Bold.ttf");
 }
 
 @font-face {
@@ -10,20 +10,24 @@
         
 body {
   background-color: rgb(35, 41, 53);
+  margin: 0px;
 }
+
 
 /* The navigation bar */
 .navbar {
   overflow: hidden;
   background-color: black; opacity: .95;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  position: fixed;
+  top: 0;
+  width: 100%; 
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 /* Links inside the navbar */
 .navbar a {
-  /* float: left; */
+  float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
@@ -53,18 +57,20 @@ body {
   text-shadow: 0 2px 2px rgba(0,0,0,.6);
   -webkit-transition: .2s color ease-in-out,.2s opacity ease-in-out;
   transition: .2s color ease-in-out,.2s opacity ease-in-out;
-  float: right;
+  display: flex;
+  justify-content: right;
 }
 
 #button {
-  background-color: #c80000;
-  color: white;
-  height: 30px;
-  border-radius: 28px;
-  padding: 0 1.25em;
-  font-size: 1.375em;
-  border-color: #c80000;
-  font-family: Roboto-Regular;
+  margin-left: 2em;
+  padding: 0 1.5em;
+  height: 34px;
+  font-family: Roboto,Helvetica,sans-serif;
+  font-weight: 700;
+  font-size: .75em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
 }
 
 /* .shake:hover {
@@ -77,19 +83,20 @@ body {
   margin-left: 30px;
   padding-top: 200px;
   color: white;
-  margin-top: 400px;
+  margin-top: 200px;
   font-family: Roboto;
 }
 
 #pageTitle {
   font-size: 3.75em;
   font-weight: 900;
-  font-family: Roboto-black;
+  font-family: Roboto-Bold;
 }
 
 #pageSubtitle {
   font-size: 1.375em;
   font-family: Roboto-Regular;
+  padding-bottom: 10px;
 }
 
 #joinFreeButton {
