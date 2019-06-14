@@ -25,7 +25,8 @@ Below are the current features worked on today and the features that are planned
 
 * build out of basic components 
 * hard coded movie list for now
-* styling to match Shudder's styling
+* styling to match Shudder's styling.
+* footer for landing page
 
 # Future Planned Features:
 
