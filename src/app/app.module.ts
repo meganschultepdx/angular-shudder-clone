@@ -7,6 +7,7 @@ import { NavBarComponent } from './navbar/navbar.component';
 import { AccountCreationComponent } from './account-creation/account-creation.component';
 import { LoginComponent } from './login/login.component';
 import { OtherPagesNavbarComponent } from './other-pages-navbar/other-pages-navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { OtherPagesNavbarComponent } from './other-pages-navbar/other-pages-navb
     NavBarComponent,
     AccountCreationComponent,
     LoginComponent,
-    OtherPagesNavbarComponent
+    OtherPagesNavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
