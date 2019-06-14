@@ -8,6 +8,7 @@ import { AccountCreationComponent } from './account-creation/account-creation.co
 import { LoginComponent } from './login/login.component';
 import { OtherPagesNavbarComponent } from './other-pages-navbar/other-pages-navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { FooterComponent } from './footer/footer.component';
     AccountCreationComponent,
     LoginComponent,
     OtherPagesNavbarComponent,
-    FooterComponent
+    FooterComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule

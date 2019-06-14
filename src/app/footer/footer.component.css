@@ -1,9 +1,10 @@
 /* @font-face {
-  font-family: "Roboto-Regular";
-  src: url("../assets/roboto/Roboto-Regular.ttf");
+  font-family: "Roboto-Bold";
+  src: url("../assets/roboto/Roboto-Bold.ttf");
 } */
 
 #footer {
+  display: grid;
   background-color: #131f22;
   left: 0;
   bottom: 0;
@@ -11,4 +12,22 @@
   color: white;
   height: 200px;
   font-family: Roboto-Regular;
+}
+
+#about {
+  grid-column-start: 1;
+  grid-row-span: 2;
+  ;
+}
+
+#socialMedia {
+  text-align: right;
+  font-family: Roboto-Regular,Helvetica,sans-serif;
+  font-weight: 700;
+  font-size: .75em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #86a6b1;
+  padding: 5px;
+  
 }
