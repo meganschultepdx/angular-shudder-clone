@@ -23,8 +23,8 @@ Below are the current features worked on today and the features that are planned
 
 # Current Features:
 
-*
-*
+* build out of basic components 
+* 
 *
 
 # Future Planned Features:
