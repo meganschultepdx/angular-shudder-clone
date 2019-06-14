@@ -24,8 +24,8 @@ Below are the current features worked on today and the features that are planned
 # Current Features:
 
 * build out of basic components 
-* 
-*
+* hard coded movie list for now
+* styling to match Shudder's styling
 
 # Future Planned Features:
 
