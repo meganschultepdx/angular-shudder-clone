@@ -7,6 +7,11 @@
   font-family: "Roboto-Regular";
   src: url("../assets/roboto/Roboto-Regular.ttf");
 }
+        
+body {
+  background-color: rgb(35, 41, 53);
+}
+
 /* The navigation bar */
 .navbar {
   overflow: hidden;
@@ -33,9 +38,10 @@
 } */
 
 /* Main content */
-.main {
-  margin-top: 30px; /* Add a top margin to avoid content overlay */
-}
+/* .main {
+  margin-top: 30px;  */
+  /* Add a top margin to avoid content overlay */
+/* } */
 
 #loginNavbar {
   font-weight: 700;
@@ -50,18 +56,26 @@
   float: right;
 }
 
+#button {
+  background-color: #c80000;
+  color: white;
+  height: 30px;
+  border-radius: 28px;
+  padding: 0 1.25em;
+  font-size: 1.375em;
+  border-color: #c80000;
+  font-family: Roboto-Regular;
+}
+
 /* .shake:hover {
   display: inline-block;
   transform-origin: center center;
 } */
 
-body {
-  background-color: rgb(26, 36, 58);
-}
 
 #pageTitles {
-  margin-left: 20px;
-  margin-top: 50px;
+  margin-left: 30px;
+  padding-top: 200px;
   color: white;
   margin-top: 400px;
   font-family: Roboto;
