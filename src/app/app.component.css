@@ -9,7 +9,7 @@
 }
         
 body {
-  background-color: rgb(35, 41, 53);
+  background-color: #14222d;
   margin: 0px;
 }
 
@@ -83,8 +83,10 @@ body {
   margin-left: 30px;
   padding-top: 200px;
   color: white;
-  margin-top: 200px;
+  margin-top: 100px;
   font-family: Roboto;
+  z-index: 1;
+  grid-colum: 1 / 3;
 }
 
 #pageTitle {
@@ -99,6 +101,7 @@ body {
   padding-bottom: 10px;
 }
 
+
 #joinFreeButton {
   background-color: #c80000;
   color: white;
@@ -109,6 +112,18 @@ body {
   border-color: #c80000;
   font-family: Roboto-Regular;
 }
+
+#bodyImage {
+  height: 550px;
+  margin-top: 50px;
+  z-index: -1;
+ grid-column: 3 / 4;
+}
+
+#columnsTitlePic {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+ }
 
 #scroll {
   margin-top: 500px;
