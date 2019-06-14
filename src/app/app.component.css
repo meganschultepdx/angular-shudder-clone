@@ -9,7 +9,7 @@
 
 /* Links inside the navbar */
 .navbar a {
-  float: left;
+  /* float: left; */
   display: block;
   color: #f2f2f2;
   text-align: center;
@@ -17,11 +17,11 @@
   text-decoration: none;
 }
 
-/* Change background on mouse-over */
+/* Change background on mouse-over
 .navbar a:hover {
   background: #ddd;
   color: black;
-}
+} */
 
 /* Main content */
 .main {
@@ -34,13 +34,23 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   opacity: 1;
-  color: #c9352b;
+  color: white;
   text-shadow: 0 2px 2px rgba(0,0,0,.6);
   -webkit-transition: .2s color ease-in-out,.2s opacity ease-in-out;
   transition: .2s color ease-in-out,.2s opacity ease-in-out;
+  float: right;
 }
 
-.shake:hover {
+/* .shake:hover {
   display: inline-block;
   transform-origin: center center;
+} */
+
+body {
+  background-color: black;
+}
+
+#pageTitles {
+  color: white;
+  margin-top: 400px;
 }
