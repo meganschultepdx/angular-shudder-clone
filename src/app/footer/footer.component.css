@@ -14,10 +14,48 @@
   font-family: Roboto-Regular;
 }
 
-#about {
-  grid-column-start: 1;
-  grid-row-span: 2;
-  ;
+#topRow {
+  grid-column-span: 1 / 3;
+  grid-row-start: 1;
+  padding-top: 20px;
+  font-weight: 700;
+  font-size: .75em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#bottomRow {
+  grid-column-span: 1 / 3;
+  grid-row-start: 3;
+  font-size: .625em;
+  font-weight: 700;
+}
+
+#socialMedia {
+  grid-column-start: 5;
+  grid-row-start: 3;
+}
+#stalk {
+  padding-right: 15px;
+}
+#facebook {
+  padding: 5px;
+}
+
+#twitter {
+  padding: 5px;
+}
+
+#youtube {
+  padding: 5px;
+}
+
+#instagram{
+  padding: 5px;
+}
+
+#snapchat {
+  padding: 5px;
 }
 
 #socialMedia {
@@ -29,5 +67,7 @@
   letter-spacing: 1px;
   color: #86a6b1;
   padding: 5px;
+  margin-top: 40px;
+  margin-right: 10px;
   
 }
