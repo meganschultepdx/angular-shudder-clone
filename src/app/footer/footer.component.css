@@ -1,9 +1,14 @@
+/* @font-face {
+  font-family: "Roboto-Regular";
+  src: url("../assets/roboto/Roboto-Regular.ttf");
+} */
+
 #footer {
   background-color: #131f22;
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   color: white;
-  
+  height: 200px;
+  font-family: Roboto-Regular;
 }
