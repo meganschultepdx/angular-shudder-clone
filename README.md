@@ -32,6 +32,8 @@ Below are the current features worked on today and the features that are planned
 
 # Future Planned Features:
 
+* Add live Firebase deployment
+* replace current static images with links/buttons
 * routing between pages
 * login function for users
 * database movie list
