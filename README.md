@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Description
 
-  This web application is designed to be a clone of the Shudder.com horror movie streaming website built with Angular and Firebase. 
+  This web application is designed to be a clone of the https://www.shudder.com/ horror movie streaming website built with Angular and Firebase. 
 
 ## Live Demo
 * visit https://###.firebaseapp.com
