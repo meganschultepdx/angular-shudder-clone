@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "Roboto-Bold";
   src: url("../assets/roboto/Roboto-Bold.ttf");
 }
@@ -14,9 +14,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0px;
-}
+} */
 
-/* #pageTitles {
+#pageTitles {
   margin-left: 30px;
   padding-top: 260px;
   color: white;
@@ -48,21 +48,21 @@ body {
 }
 
 #sellingDescription {
-  padding-top: 300px; 
+  padding-top: 200px; 
 }
 
 #featuredIn (
   width: 100%;
 ) */
 
-/* #bodyImage {
+#bodyImage {
   height: 550px;
   margin-top: 50px;
   z-index: -1;
   grid-column: 3 / 4;
-} */
+} 
 
-/* .columnsTitlePic {
+.columnsTitlePic {
   display: grid;
   grid-template-rows: 100px 1fr 100px;
   grid-template-columns: 150px 1fr 150px;
@@ -80,6 +80,4 @@ body {
   grid-row-start: 1;
   grid-column: span 2 / 4;
   grid-row-end: span 2;
-} */
-
-/* } */
+} 

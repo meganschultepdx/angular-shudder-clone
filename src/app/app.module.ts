@@ -9,6 +9,7 @@ import { LoginComponent } from './login/login.component';
 import { OtherPagesNavbarComponent } from './other-pages-navbar/other-pages-navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { AboutComponent } from './about/about.component';
     LoginComponent,
     OtherPagesNavbarComponent,
     FooterComponent,
-    AboutComponent
+    AboutComponent,
+    LandingPageComponent
   ],
   imports: [
     BrowserModule
