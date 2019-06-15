@@ -9,77 +9,10 @@
 }
         
 body {
-  background-color: #14222d;
+  background-color: #131f22;
   background-image: url("../assets/img/background.png");
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0px;
 }
 
-/* #pageTitles {
-  margin-left: 30px;
-  padding-top: 260px;
-  color: white;
-  font-family: Roboto;
-}
-
-#pageTitle {
-  font-size: 3.75em;
-  font-weight: 900;
-  font-family: Roboto-Bold;
-}
-
-#pageSubtitle {
-  font-size: 1.375em;
-  font-family: Roboto-Regular;
-  padding-bottom: 10px;
-}
-
-
-#joinFreeButton {
-  background-color: #c80000;
-  color: white;
-  height: 58px;
-  border-radius: 28px;
-  padding: 0 1.25em;
-  font-size: 1.375em;
-  border-color: #c80000;
-  font-family: Roboto-Regular;
-}
-
-#sellingDescription {
-  padding-top: 300px; 
-}
-
-#featuredIn (
-  width: 100%;
-) */
-
-/* #bodyImage {
-  height: 550px;
-  margin-top: 50px;
-  z-index: -1;
-  grid-column: 3 / 4;
-} */
-
-/* .columnsTitlePic {
-  display: grid;
-  grid-template-rows: 100px 1fr 100px;
-  grid-template-columns: 150px 1fr 150px;
-  grid-template-areas: "content content" 
-                      "footer footer footer";
-}
-
-.pageTitles {
-  grid-row: 1;
-  grid-column: span 1 / 4;
-  z-index: 2;
-}
-
-#bodyImage {
-  grid-row-start: 1;
-  grid-column: span 2 / 4;
-  grid-row-end: span 2;
-} */
-
-/* } */
