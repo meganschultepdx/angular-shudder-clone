@@ -16,3 +16,18 @@ body {
   margin: 0px;
 }
 
+#navButton {
+  margin-left: 2em;
+  padding: 0 1.5em;
+  height: 34px;
+  font-family: Roboto-Regular;
+  font-weight: 700;
+  font-size: .75em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  background-color: #c80000;
+  border-color: #c80000;
+  border-radius: 18px;
+}
+
