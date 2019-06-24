@@ -12,6 +12,7 @@
   width: 100%; 
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
+  z-index: 1;
 }
 
 /* Links inside the navbar */

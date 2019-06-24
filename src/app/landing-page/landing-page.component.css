@@ -1,4 +1,12 @@
 
+  #background {
+    background-color: #131f22;
+    background-image: url("../../assets/img/smallerBackground.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0px;
+  }
+
 #pageTitles {
   margin-left: 30px;
   padding-top: 260px;
@@ -11,6 +19,7 @@
   font-weight: 900;
   font-family: Roboto-Bold;
 }
+
 
 #pageSubtitle {
   font-size: 1.375em;
@@ -31,7 +40,7 @@
 }
 
 #sellingDescription {
-  padding-top: 200px; 
+  padding-top: 185px; 
 }
 
 #featuredIn (

@@ -1,0 +1,73 @@
+#collectionsBackground {
+  background-color: #131f22;
+}
+
+.header {
+  height: 155px;
+}
+
+.collectionsTitle {
+  color: white;
+  text-align: center;
+  font-size: 2.125em;
+    font-weight: 900;
+    line-height: 1.25;
+    font-family: Roboto,Helvetica,sans-serif;
+    /* padding-top: 150px; */
+}
+
+.collectionsSubtitle {
+  text-align: center;
+  color: #7f959c;
+  margin-bottom: 50px;
+  font-size: 16px;
+  font-family: Roboto,Helvetica,sans-serif;
+  font-weight: 400;
+}
+
+#count {
+  color: white;
+  font-size: 14px;
+}
+
+#title {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: Roboto,Helvetica,sans-serif;
+}
+
+#description {
+  color: #7f959c;
+  font-size: 16px;
+  font-family: Roboto,Helvetica,sans-serif;
+  font-weight: 200;
+  padding-bottom: 20px;
+}
+
+.flex-box {
+  margin: 15px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 3;
+}
+
+hr {
+  background-color: rgb(99, 93, 77);
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: .8;
+}
+

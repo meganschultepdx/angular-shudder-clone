@@ -7,16 +7,7 @@
   font-family: "Roboto-Regular";
   src: url("../assets/roboto/Roboto-Regular.ttf");
 }
-
-#background 
-        
-body {
-  background-color: #131f22;
-  background-image: url("../assets/img/background.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 0px;
-}
+     
 
 #navButton {
   margin-left: 2em;

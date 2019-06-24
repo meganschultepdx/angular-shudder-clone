@@ -9,11 +9,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   This web application is designed to be a clone of the [SHUDDER](https://www.shudder.com) horror movie streaming website built with Angular and Firebase. 
 
 ## Live Demo
-* visit https://###.firebaseapp.com
+* visit https://shudder-clone.firebaseapp.com/
 
 ## Setup/Installation Requirements
 * clone project from https://github.com/meganschultepdx/angular-shudder-clone.
-* Run npm install to install necessary packages.
+* Run npm install from with in root directory to install necessary packages.
+* You will need your own Firebase credentials in order for project to run correctly. Please follow the following [directions](https://www.learnhowtoprogram.com/javascript/angular-extended/firebase-introduction-and-setup) in order to log in to Firebase and obtain your own credentials to use in this project.
 * Run ng serve --open to open project on local server.
 * Project will automatically open in Chrome browser at localhost:4200
 
@@ -23,21 +24,25 @@ Below are the current features worked on today and the features that are planned
 
 # Current Features:
 
-* landing page
-* nav bar component
+* landing page with:
+  - navbar component
+    - click on "Log In "in navbar to route to login page
+  - footer component
+    - click on "About" in footer to route to about page
+* Navbar, Footer and their links to login and About show on every page or when other components are displayed.
 * styling to match Shudder's styling.
-* about page component
-* footer component
-* hard code movie list
+* Login page has fake login form but 'login" button routes you to collections page
+* Collections page features list of "featured collections" from Firebase Database
+* click on Shudder logo in navbar to return to home/landing page from any other page
+* live Firebase deployment
+
 
 # Future Planned Features:
 
-* Add live Firebase deployment
-* replace current static images with links/buttons
-* routing between pages
-* login function for users
-* database movie list
-
+* replace more of the static images with built components 
+* Retrieve and display collection images that are saved in Firebase storage
+* Format data from Firebase to display correctly in columns with images
+* Display Horror101 data from Firebase with images
 
  ## Known Bugs
 

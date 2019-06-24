@@ -1,3 +1,30 @@
-<p>
-  login works!
-</p>
+<div id="loginBackground">
+  <div class="flex-container">
+    <div class="header">
+    </div>
+  
+    <div class="container">
+      <div class="login-wrapper" id="login-form-container">
+        <div class="user-form-wrapper">
+          <div id="login-form" class="panel-body">
+            <p id="loginTitle">Welcome Back!</p>
+            <label id="email">EMAIL ADDRESS</label>
+            <input class="inputBox" #email><br><br>
+
+            <label id="password">PASSWORD</label>
+            <input class="inputBox" #password><br>
+
+            <a id="forgot" href="">FORGOT PASSWORD?</a><br>
+
+            <a routerLink="collections"><button id="fakeLogin">Log In</button></a>
+
+            <a id="provider" href="">LOG IN WITH TV PROVIDER</a>
+          </div>
+          <div id="freeTrial">
+            <a id="trial" href="">New to Shudder? Start Your Free Trial</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
