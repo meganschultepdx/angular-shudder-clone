@@ -36,5 +36,26 @@
       "title": "Giallo!",
       "description": "Black gloves and sharp knives abound in this essential excerpt of the Italian subgenre."
     }
+  ],
+  
+  "horror101s": [
+    {
+      "category": "Horror101",
+      "count": "6 Titles",
+      "title": "Foundations of Horror",
+      "description": "Celebrate the superb, scary cinema that gave birth to film's most popular genre."
+    },
+    {
+      "category": "Horror101",
+      "count": "14 Titles",
+      "title": "Slashics",
+      "description": "These Cananical chop-em-up's should be your first stop for classics of slasher cinema."
+    },
+    {
+      "category": "Horror101",
+      "count": "6 Titles",
+      "title": "Giallo!",
+      "description": "Black gloves and sharp knives abound in this essential excerpt of the Italian subgenre."
+    }
   ]
 }

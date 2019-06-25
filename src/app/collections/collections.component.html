@@ -6,29 +6,7 @@
   <h1 class="collectionsTitle">Featured Collections</h1><br>
   <h3 class="collectionsSubtitle">The latest and greatest collections on Shudder.</h3><br>
 
-  <!-- <div class='flex-box'>
-    <div class='row'>
-      <div class='column'>
-        <div id="queerHorror">
-          <img src="../../assets/img/queerhorror.png">
-        </div>
-      </div>
-      <div class='column'>
-        <div id="essential">
-          <img src="../../assets/img/essentials.png">
-        </div>
-      </div>
-      <div class='column'>
-        <div id="horrorNoire">
-          <img src="../../assets/img/horrornoire.png">
-        </div>
-      </div>
-    </div>
-  </div> -->
-
   <div *ngFor="let collection of collections | async">
-    <!-- <div *ngIf="collection.category === 'featured'"> -->
-    <!-- <div class='flex-box'> -->
     <div class='row'>
       <div class='col-md-4'>
         <img id="img" src="{{collection.img}}" alt="{{collection.title}}">
@@ -38,25 +16,21 @@
       </div>
     </div>
   </div>
-  <!-- </div> -->
   <hr>
 
   <h1 class="collectionsTitle">Horor 101</h1><br>
   <h3 class="collectionsSubtitle">Collections featuring essentials, all-timers and crucial classics for the horror
     aficionado and beginner alike.</h3><br>
 
-  <div *ngFor="let collection of collections | async">
-    <div *ngIf="collection.type === 'Horror101'">
-      <!-- <div class='flex-box'> -->
+  <div *ngFor="let horror101 of horror101s | async">
       <div class='row'>
         <div class='col-md-4'>
-          <img id="img" src="{{collection.img}}" alt="{{collection.title}}">
-          <p id="count">{{collection.count}}</p>
-          <p id="title">{{collection.title}}</p>
-          <p id="description">{{collection.description}}</p>
+          <img id="img" src="{{horror101.img}}" alt="{{horror101.title}}">
+          <p id="count">{{horror101.count}}</p>
+          <p id="title">{{horror101.title}}</p>
+          <p id="description">{{horror101.description}}</p>
         </div>
       </div>
     </div>
   </div>
   <hr>
-</div>
